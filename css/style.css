@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-veterinary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px 0;
+    z-index: 1000;
+  }
+
+  .carousel-item h2 {
+    font-weight: 700;
+    text-align: left;
+    font-size: 50px;
+  }
+  .carousel-item p {
+    text-align: left;
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+  
+.navbar-brand {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  transition: .5s;
+}
+
+.navbar-brand:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.nav-item a {
+  font-weight: 600;
+  color: #fff;
+  transition: .5s;
+}
+
+.nav-item a:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+#nosotros {
+  margin: 0 40px;
+  position: relative;
+  padding: 80px 0;
+}
+
+#nosotros h5 {
+  color: #000;
+  padding: 10px 0;
+  margin: 0 45px;
+  font-weight: 700;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+#nosotros p {
+  padding: 50px 40px;
+  font-size: 18px;
+}
+
+#servicios h2 {
+  font-weight: 700;
+  font-size: 50px;
+  padding: 10px 0;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+.servicios {
+  margin: 90px 35px;
+  padding: 10px 15px;
+}
+
+.servicios img {
+  padding: 15px 0;
+  transition: .5s;
+}
+
+.servicios img:hover {
+  transform: scale(1.1);
+}
+
+.servicios h4 {
+  font-weight: 700;
+  padding: 10px;
+}
+
+.servicios p {
+  text-align: left;
+}
+
+#equipo h5 {
+  text-align: justify;
+  font-weight: 700;
+  padding: 20px 0;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+#equipo img {
+  padding: 15px 0;
+  margin-top: 15px;
+  margin-right: -30px;
+}
+
+#equipo h4 {
+  padding: 10px;
+  font-weight: 700;
+  text-align: justify;
+}
+
+#equipo p {
+  text-align: left;
+}
+
+.texto1, .texto2, .texto3, .texto4 {
+  margin-top: 80px;
+  font-size: 16px;
+}
+
+.productos {
+  margin: 10px 50px 10px 50px;
+  cursor: pointer;
+}
+
+#productos h2 {
+  text-align: justify;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 20px 0;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+#productos h5 {
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.btn-carrito {
+  background: #f5655b;
+  color: #fff;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.btn-carrito:hover {
+  transform: scale(1.1);
+  background: #f5655b;
+  color: #fff;
+}
+
+#clinica h2 {
+  text-align: justify;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 30px 0;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+.instalacion {
+  width: 100%;
+  height: 95%;
+}
+
+#preguntas-frecuentes  img {
+  padding: 20px 0;
+  margin: 30px 0;
+}
+
+#preguntas-frecuentes h3 {
+  text-align: justify;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 30px 0;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+#opiniones {
+  width: 100%;
+  position: relative;
+  padding: 40px 0;
+  margin: 15px 0;
+  background: #f5655b88;
+  background-size: cover;
+  background-position: center;
+}
+
+#opiniones h2{
+  color: #000;
+  text-align: center;
+  padding: 0 50px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#contactanos h2 {
+  text-align: justify;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 30px 0;
+  font-size: 36px;
+  border-bottom: 5px solid #f5655b;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 20px;
+  background: #f5655b;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
